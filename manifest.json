@@ -4,9 +4,19 @@
     "version": "1.0.0",
     "description": "Compares any product in amazon with flipkart or vice versa",
     "icons": {
-        "16": "./imgs/AmazeKart-logo(16).jpg",
-        "32": "./imgs/AmazeKart-logo(32).jpg",
-        "48": "./imgs/AmazeKart-logo(48).jpg"
+        "16": "imgs/AmazeKart-logo(16).png",
+        "32": "imgs/AmazeKart-logo(32).png",
+        "48": "imgs/AmazeKart-logo(48).png",
+        "128": "imgs/AmazeKart-logo(128).png"
     },
-    "permissions": ["activeTab", "scripting"]
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+        "default_popup": "./popups/popup.html",
+        "default_icon": {
+            "16": "imgs/AmazeKart-logo(16).png",
+            "32": "imgs/AmazeKart-logo(32).png",
+            "48": "imgs/AmazeKart-logo(48).png",
+            "128": "imgs/AmazeKart-logo(128).png"
+        }
+    }
 }
