@@ -15,5 +15,5 @@ https://www.flipkart.com/{PRODUCT_NAME} --> put this in the search query of amaz
 
 ## Step-2
 
-### make the extension run only in amazon or flipkart
-### make the new tab open as the extension popup
+### Make the extension run only in amazon or flipkart
+### Make the new tab open as the extension popup
