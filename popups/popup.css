@@ -1,3 +1,22 @@
 h1 {
-    color: rebeccapurple;
+    color: red;
+}
+
+body{
+    background-color: #1f2937;
+    width: 400px;
+    color: #3882f6;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ol li {
+    font-size: 16px;
+}
+
+.container {
+    border: 1px solid #eee;
+    padding: 10px;
 }
