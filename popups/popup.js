@@ -1,4 +1,3 @@
-//TODO
 // flipkart search query
 // https://www.flipkart.com/search?q={PRODUCT_NAME}&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off
 
@@ -33,7 +32,7 @@ async function getCurrentTabUrl() {
     if(arrayUrl[2] == 'www.amazon.in'){
         chrome.tabs.create({ url: `https://www.flipkart.com/search?q=${PRODUCT_NAME}&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off` });
     }
-    else {
+    else if(arrayUrl[2] == 'www.flipkart.com'){
         chrome.tabs.create({ url: `https://www.amazon.in/s?k=${PRODUCT_NAME}&i=computers&crid=1XD4RZX73V5X3&sprefix={PRODUCT_NAME}` });
     }
   });
