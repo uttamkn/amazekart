@@ -9,6 +9,10 @@
         "48": "imgs/AmazeKart-logo(48).png",
         "128": "imgs/AmazeKart-logo(128).png"
     },
+    "permissions": ["activeTab"],
+    "background": {
+        "service-worker": "scripts/service-worker.js"
+    },
     "action": {
         "default_popup": "./popups/popup.html",
         "default_icon": {
@@ -17,9 +21,5 @@
             "48": "imgs/AmazeKart-logo(48).png",
             "128": "imgs/AmazeKart-logo(128).png"
         }
-    },
-    "host_permissions": [
-        "https://www.amazon.in/*",
-        "https://www.flipkart.com/*"
-    ]
+    } 
 }
