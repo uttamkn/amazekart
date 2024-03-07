@@ -17,7 +17,7 @@ To install Amazekart from the source code and load it as an unpacked extension, 
 1. **Clone Repository**: Open your terminal or command prompt and run the following command to clone the Amazekart repository:
 
    ```bash
-   git clone https://github.com/your-username/amazekart.git
+   git clone https://github.com/uttamkn/Amazekart.git
    cd amazekart
    ```
 2. Load Unpacked Extension:
