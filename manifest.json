@@ -1,25 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Amazekart",
-    "version": "1.0.0",
-    "description": "Compares any product in amazon with flipkart or vice versa",
-    "icons": {
-        "16": "imgs/AmazeKart-logo(16).png",
-        "32": "imgs/AmazeKart-logo(32).png",
-        "48": "imgs/AmazeKart-logo(48).png",
-        "128": "imgs/AmazeKart-logo(128).png"
-    },
-    "permissions": ["activeTab"],
-    "background": {
-        "service-worker": "service-worker.js"
-    },
-    "action": {
-        "default_popup": "./popups/popup.html",
-        "default_icon": {
-            "16": "imgs/AmazeKart-logo(16).png",
-            "32": "imgs/AmazeKart-logo(32).png",
-            "48": "imgs/AmazeKart-logo(48).png",
-            "128": "imgs/AmazeKart-logo(128).png"
-        }
-    } 
+  "manifest_version": 3,
+  "name": "Amazekart",
+  "version": "1.0.0",
+  "description": "Compares any product in amazon with flipkart or vice versa",
+  "icons": {
+    "16": "imgs/AmazeKart-logo(16).png",
+    "32": "imgs/AmazeKart-logo(32).png",
+    "48": "imgs/AmazeKart-logo(48).png",
+    "128": "imgs/AmazeKart-logo(128).png"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "./popups/popup.html",
+    "default_icon": {
+      "16": "imgs/AmazeKart-logo(16).png",
+      "32": "imgs/AmazeKart-logo(32).png",
+      "48": "imgs/AmazeKart-logo(48).png",
+      "128": "imgs/AmazeKart-logo(128).png"
+    }
+  }
 }
+
